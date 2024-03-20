@@ -4,30 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
+    <title>Sunday Improv Jam - Payment</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>You are about to make a payment to <span>Kushagr Arora</span></h1>
-    <h2>
-      <img src="./upi-icon.png" alt="upi" role="presentation" class="icon" />
-      kushagr.1@paytm
-    </h2>
+    <header>
+      <h1>You are about to make a payment to <span>Kushagr Arora</span></h1>
+    </header>
+    <main>
+      <section>
+        <h2>
+          <img src="./upi-icon.png" alt="UPI Icon" role="presentation" class="icon" />
+          kushagr.1@paytm
+        </h2>
 
-    <div class="button-container">
-      <button class="button-1" role="button" id="copy-upi">Copy UPI</button>
-      <button class="button-1" role="button" id="copy-number">
-        Copy Phone Number
-      </button>
-    </div>
+        <div class="button-container">
+          <button class="button-1" role="button" id="copy-upi" aria-label="Copy UPI">Copy UPI</button>
+          <button class="button-1" role="button" id="copy-number" aria-label="Copy Phone Number">
+            Copy Phone Number
+          </button>
+        </div>
 
-    <p>-- OR --</p>
+        <p>-- OR --</p>
 
-    <h2>Scan this QR code</h2>
+        <h2>Scan this QR code</h2>
 
-    <div>
-      <img src="./qr-paytm.jpeg" alt="QR code for payment" />
-    </div>
+        <div>
+          <img src="./qr-paytm.jpeg" alt="QR code for payment" />
+        </div>
+      </section>
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>
