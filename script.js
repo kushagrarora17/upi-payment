@@ -1,7 +1,7 @@
 let handleUpiCopyClick = document.querySelector("#copy-upi");
 
 handleUpiCopyClick.addEventListener("click", () => {
-  let text = "kushagr.1@paytm";
+  let text = "9643711706@yapl";
   navigator.clipboard.writeText(text);
 
   alert("UPI id copied. Paste it GPay/PhonePe/PayTM/BHIM for transaction");
