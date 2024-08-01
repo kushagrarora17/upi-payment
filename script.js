@@ -1,7 +1,7 @@
 let handleUpiCopyClick = document.querySelector("#copy-upi");
 
 handleUpiCopyClick.addEventListener("click", () => {
-  let text = "9643711706@yapl";
+  let text = "8939384066@paytm";
   navigator.clipboard.writeText(text);
 
   alert("UPI id copied. Paste it GPay/PhonePe/PayTM/BHIM for transaction");
@@ -10,7 +10,7 @@ handleUpiCopyClick.addEventListener("click", () => {
 let handleNumberCopyClick = document.querySelector("#copy-number");
 
 handleNumberCopyClick.addEventListener("click", () => {
-  let text = "9643711706";
+  let text = "8939384066";
   navigator.clipboard.writeText(text);
 
   alert(
